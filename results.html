@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Shipment</title>
+
+    <!-- ..............fonts........... -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <!-- .............Css................. -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+  <body>
+
+
+    <!-- .................Menu................. -->
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid px-4">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/main-logo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="track-your-order.html">Tracking</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign in</a>
+            </li>
+           
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- .............................Content........................... -->
+
+    <div class="shipment-department">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tab-section text-center">
+                        <div class="tab-bg mx-auto">
+                            <ul class="nav nav-pills justify-content-between" id="pills-tab" role="tablist">
+                              <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Cheapest</button>
+                              </li>
+                              <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Fastest</button>
+                              </li>
+                              <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Environmentally</button>
+                              </li>
+                              <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-best-tab" data-bs-toggle="pill" data-bs-target="#pills-best" type="button" role="tab" aria-controls="pills-best" aria-selected="false">Best</button>
+                              </li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content" id="pills-tabContent">
+                              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                  <!-- ...................First-tab-content............... -->
+
+                                  <div class="row text-start">
+                                      <div class="col-lg-2 col-md-3 col-12">
+                                          <div class="sidebar-nav">
+                                              <div class="accordion accordion-flush" id="accordionFlushExample">
+                                                  <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="flush-headingOne">
+                                                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                        Stops
+                                                      </button>
+                                                    </h2>
+                                                    <div id="flush-collapseOne" class="accordion-collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                                      <div class="accordion-body">
+                                                            <div class="form-check mb-2">
+                                                              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                                                              <label class="form-check-label" for="flexCheckChecked">
+                                                                Direct
+                                                                <span>from $361</span>
+                                                              </label>
+                                                            </div>
+                                                            <div class="form-check mb-2">
+                                                              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                                                              <label class="form-check-label" for="flexCheckChecked">
+                                                                1 stop
+                                                                <span>from $362</span>
+                                                              </label>
+                                                            </div>
+                                                            <div class="form-check mb-2">
+                                                              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                                                              <label class="form-check-label" for="flexCheckChecked">
+                                                                2+ stops
+                                                                <span>from $451</span>
+                                                              </label>
+                                                            </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                        Journey duration
+                                                      </button>
+                                                    </h2>
+                                                    <div id="flush-collapseTwo" class="accordion-collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                                      <div class="accordion-body">
+                                                          <div class="range-days">
+                                                              <label for="customRange1" class="form-label">4 days - 4 days</label>
+                                                                <input type="range" class="form-range" id="customRange1">
+                                                          </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="flush-headingThree">
+                                                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                            Air Carriers
+                                                          </button>
+                                                        </h2>
+                                                        <div id="flush-collapseThree" class="accordion-collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                                          <div class="accordion-body">
+                                                              <div class="select-line">
+                                                                  <span>Select all</span> <span> | </span> <span class="sky-blue-txt">Clear all</span>
+                                                              </div>
+                                                              <div class="category-txt">
+                                                                  <p class="sky-blue-txt">Value Alliance</p>
+                                                                  <p class="sky-blue-txt">oneworld</p>
+                                                              </div>
+                                                                <div class="form-check mb-2">
+                                                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                                                                  <label class="form-check-label" for="flexCheckChecked">
+                                                                    Direct
+                                                                    <span>from $361</span>
+                                                                  </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                                                                  <label class="form-check-label" for="flexCheckChecked">
+                                                                    1 stop
+                                                                    <span>from $362</span>
+                                                                  </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                                                                  <label class="form-check-label" for="flexCheckChecked">
+                                                                    2+ stops
+                                                                    <span>from $451</span>
+                                                                  </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                                                                  <label class="form-check-label" for="flexCheckChecked">
+                                                                    Direct
+                                                                    <span>from $361</span>
+                                                                  </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                                                                  <label class="form-check-label" for="flexCheckChecked">
+                                                                    1 stop
+                                                                    <span>from $362</span>
+                                                                  </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                                                                  <label class="form-check-label" for="flexCheckChecked">
+                                                                    2+ stops
+                                                                    <span>from $451</span>
+                                                                  </label>
+                                                                </div>
+                                                          </div>
+                                                        </div>
+                                                  </div>
+                                                  <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="flush-headingFour">
+                                                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                                            Sea Carriers
+                                                          </button>
+                                                        </h2>
+                                                        <div id="flush-collapseFour" class="accordion-collapse" aria-labelledby="flush-headingFOur" data-bs-parent="#accordionFlushExample">
+                                                          <div class="accordion-body">
+                                                              <div class="select-line">
+                                                                  <span>Select all</span> <span> | </span> <span class="sky-blue-txt">Clear all</span>
+                                                              </div>
+                                                              <div class="category-txt">
+                                                                  <p class="sky-blue-txt">Value Alliance</p>
+                                                                  <p class="sky-blue-txt">oneworld</p>
+                                                              </div>
+                                                                <div class="form-check mb-2">
+                                                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                                                                  <label class="form-check-label" for="flexCheckChecked">
+                                                                    Direct
+                                                                    <span>from $361</span>
+                                                                  </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                                                                  <label class="form-check-label" for="flexCheckChecked">
+                                                                    1 stop
+                                                                    <span>from $362</span>
+                                                                  </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                                                                  <label class="form-check-label" for="flexCheckChecked">
+                                                                    2+ stops
+                                                                    <span>from $451</span>
+                                                                  </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                                                                  <label class="form-check-label" for="flexCheckChecked">
+                                                                    Direct
+                                                                    <span>from $361</span>
+                                                                  </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                                                                  <label class="form-check-label" for="flexCheckChecked">
+                                                                    1 stop
+                                                                    <span>from $362</span>
+                                                                  </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                                                                  <label class="form-check-label" for="flexCheckChecked">
+                                                                    2+ stops
+                                                                    <span>from $451</span>
+                                                                  </label>
+                                                                </div>
+                                                          </div>
+                                                        </div>
+                                                  </div>
+                                                </div>
+                                          </div>
+                                      </div>
+                                      <div class="col-lg-7 col-md-9 col-12">
+                                        <div class="shipment-content">
+                                            <p class="shipment-head">New shipment<span>Carrier</span></p>
+
+                                            <div class="cheapest-card mb-4">
+                                                <div class="green-label">
+                                                    <p>Cheapest</p>
+                                                </div>
+                                                <div class="cheapest-info">
+                                                    <div class="cheap-from-to mb-3">
+                                                        <div class="main-img"><img src="images/mov.png"></div>
+                                                        <div class="time text-end"><p>06:10</p><span>SIN</span></div>
+                                                        <div class="connect text-center"><p>4h 10</p><span class="line"></span><span>Direct</span></div>
+                                                        <div><img src="images/plan.png"></div>
+                                                        <div class="time text-start"><p>06:10</p><span>TRN</span></div>
+                                                        <div class="include"><p>$100<span>CO2 emissions</span></p><span>included</span></div>
+                                                        <div class="cost"><p>$149.99</p><span>Inc GST</span></div>
+                                                    </div>
+                                                    <div class="cheap-from-to">
+                                                        <div class="main-img"><img src="images/mov.png"></div>
+                                                        <div class="time text-end"><p>06:10</p><span>SIN</span></div>
+                                                        <div class="connect text-center"><p>4h 10</p><span class="line"></span><span>Direct</span></div>
+                                                        <div><img src="images/plan.png"></div>
+                                                        <div class="time text-start"><p>06:10</p><span>TRN</span></div>
+                                                        <div class="include"><p>$100<span>CO2 emissions</span></p><span>included</span></div>
+                                                        <div class="cost"><p>$149.99</p><span>Inc GST</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="cheapest-card mb-4">
+                                                <div class="green-label">
+                                                    <p>Cheapest</p>
+                                                </div>
+                                                <div class="cheapest-info">
+                                                    <div class="cheap-from-to mb-3">
+                                                        <div class="main-img"><img src="images/hm-img.png"></div>
+                                                        <div class="time text-end"><p>06:10</p><span>SIN</span></div>
+                                                        <div class="connect text-center"><p>4h 10</p><span class="line"></span><span>Direct</span></div>
+                                                        <div><img src="images/plan.png"></div>
+                                                        <div class="time text-start"><p>06:10</p><span>TRN</span></div>
+                                                        <div class="include"><p>$100<span>CO2 emissions</span></p><span>included</span></div>
+                                                        <div class="cost"><p>$149.99</p><span>Inc GST</span></div>
+                                                    </div>
+                                                    <div class="cheap-from-to">
+                                                        <div class="main-img"><img src="images/hm-img.png"></div>
+                                                        <div class="time text-end"><p>06:10</p><span>SIN</span></div>
+                                                        <div class="connect text-center"><p>4h 10</p><span class="line"></span><span>Direct</span></div>
+                                                        <div><img src="images/plan.png"></div>
+                                                        <div class="time text-start"><p>06:10</p><span>TRN</span></div>
+                                                        <div class="include"><p>$100<span>CO2 emissions</span></p><span>included</span></div>
+                                                        <div class="cost"><p>$149.99</p><span>Inc GST</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="cheapest-card mb-4">
+                                                <div class="green-label">
+                                                    <p>Cheapest</p>
+                                                </div>
+                                                <div class="cheapest-info">
+                                                    <div class="cheap-from-to mb-3">
+                                                        <div class="main-img"><img src="images/blum.png"></div>
+                                                        <div class="time text-end"><p>06:10</p><span>SIN</span></div>
+                                                        <div class="connect text-center"><p>4h 10</p><span class="line"></span><span>Direct</span></div>
+                                                        <div><img src="images/plan.png"></div>
+                                                        <div class="time text-start"><p>06:10</p><span>TRN</span></div>
+                                                        <div class="include"><p>$100<span>CO2 emissions</span></p><span>included</span></div>
+                                                        <div class="cost"><p>$149.99</p><span>Inc GST</span></div>
+                                                    </div>
+                                                    <div class="cheap-from-to">
+                                                        <div class="main-img"><img src="images/blum.png"></div>
+                                                        <div class="time text-end"><p>06:10</p><span>SIN</span></div>
+                                                        <div class="connect text-center"><p>4h 10</p><span class="line"></span><span>Direct</span></div>
+                                                        <div><img src="images/plan.png"></div>
+                                                        <div class="time text-start"><p>06:10</p><span>TRN</span></div>
+                                                        <div class="include"><p>$100<span>CO2 emissions</span></p><span>included</span></div>
+                                                        <div class="cost"><p>$149.99</p><span>Inc GST</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                      </div>
+                                      <div class="col-lg-3 col-md-12 col-12">
+                                          <div class="final-stack">
+                                              <div class="package-box blue-line">
+                                                  <h6 class="blue-bg">Package</h6>
+                                                  <p>10 x Carton 55 x 40 x 35cm, 10 kg</p>
+                                                  <p>10 x Carton 55 x 40 x 35cm, 10 kg</p>
+                                              </div>
+                                              <div class="package-box blue-gray-line">
+                                                  <h6 class="sky-blue-txt blue-bg">Carrier</h6>
+                                                  <p>Carrier:<span>TNT</span></p>
+                                                  <p>Freight price:<span>$149.99</span></p>
+                                              </div>
+                                              <div class="package-box gray-line">
+                                                  <h6 class="gray-bg">Address details</h6>
+                                              </div>
+                                              <div class="package-box">
+                                                  <h6 class="gray-bg">CO2 e</h6>
+                                                  <p>Total<span class="sky-blue-txt">$149.99</span></p>
+                                                  <div class="d-flex final-btn">
+                                                      <div class="gray-btn">
+                                                          <a href="#">BACK</a>
+                                                      </div>
+                                                      <div class="green-btn">
+                                                          <a href="trip-details.html">NEXT</a>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+
+                              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Second</div>
+                              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Third</div>
+                              <div class="tab-pane fade" id="pills-best" role="tabpanel" aria-labelledby="pills-best-tab">Best</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- ................................Footer......................... -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-info d-flex px-0 px-md-5">
+                <div class="footer-logo">
+                    <img src="images/footer-logo.png">
+                </div>
+                <div class="contact-info">
+                    <div class="mb-3"><img src="images/location.png">ABC Company, 123 East, 17th Street, St. louis 10001</div>
+                    <div class="d-flex mb-4">
+                        <div class="w-50"><img src="images/phone.png">(123) 456-7890</div>
+                        <div class="w-50"><img src="images/fax.png">(123) 456-7890</div>
+                    </div>
+                    <div class="social-media d-flex">
+                        <p><span>Social Media</span><img src="images/facebook.png"><img src="images/twitter.png"><img src="images/linkedin.png"><img src="images/youtube.png"><img src="images/instagram.png"><img src="images/gplus.png"><img src="images/pinterest.png"><img src="images/rs-black.png"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright d-flex pt-3 justify-content-between align-items-center">
+                <div class="foot-menu">
+                    <ul class="list-unstyled">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                    </ul>
+                </div>
+                <div class="copyright-line">
+                    <p>Copyright © 2022 • ABC Company.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
