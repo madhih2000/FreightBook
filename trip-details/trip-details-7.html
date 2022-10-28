@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Final destination</title>
+
+    <!-- ..............fonts........... -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <!-- .............Css................. -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    <!-- .............JS................. -->
+    <script src="script.js"></script>
+
+
+  </head>
+  <body>
+
+    <div class="bg-shape">
+
+    <!-- .................Menu................. -->
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid px-4">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../images/main-logo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="../track-your-order.html">Tracking</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign in</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- .............................Content........................... -->
+
+    <section class="final-destination">
+        <div class="container">
+            <h2>Route Information</h2>
+            <div class="destination-info"> 
+                <div class="row">
+                    <div class="col-lg-7 col-md-8">
+                        <div class="info-card">
+                            <div class="">
+                                <div class="desti-card">
+                                    <p class="destination-head">Leg 1<span> <b>Wed, 12 Oct 2022 - Fri, 21 Oct 2022</b></span></p>
+                                    <div class="cheapest-card">
+                                        <div class="cheapest-info">
+                                            <div class="cheap-from-to">
+                                                 <div class="main-img"><img width="50" height="50" src="data:image/png;base64,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"></div>
+                                            <div class="time text-end"><p>06:10</p><span>CNSHA</span></div>
+                                            <div class="connect text-center"><p>9 Days</p><span class="line"></span><span>Direct - AS1</span></div>
+                                            <div><img width="15" height="15" src="https://www.iconpacks.net/icons/2/free-cargo-ship-icon-1771-thumb.png"></div>
+                                            
+                                            
+                                            <div class="time text-start"><p>06:10</p><span>SGSIN</span></div>
+                                            <div class="include"><p style="font-size: x-large;padding: 10px">00.27</p><span>CO2/m&#179; ton</span></div>
+                                            <div class="main-img"><img src="https://cdn4.iconfinder.com/data/icons/circular-economy-aesthetics-vol-1/256/Carbon_Emissions-512.png" width="50" height="50"></div>
+                                            <div class="cost"><p>$149.99</p><span>Inc GST</span></div>
+                                            </div>
+                                          </div>
+                                    </div>
+                                </div>
+                                 <div class="desti-card">
+                                    <p class="destination-head">Stopover<span> <b>Fri, 21 Oct 2022 - Sat, 22 Oct 2022</b></span></p>
+                                    <div class="cheapest-card">
+                                        <div class="cheapest-info">
+                                            <div class="cheap-from-to">
+                                                <div class="main-img"><img width="50" height="50" src="data:image/png;base64,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"></div>
+                                                <div class="time text-end"><p>06:10</p><span>SGSIN</span></div>
+                                                <div class="connect text-center"><p>Shifting of goods (1 Day)</p><span class="line"></span><span>Truck/Rail</span></div>
+                                                
+                                                <div class="time text-start"><p>06:10</p><span>SIN</span></div>
+                                                <!-- <div class="include"><p>$100<span>CO2 emissions</span></p><span>included</span></div>
+                                                <div class="cost"><p>$149.99</p><span>Inc GST</span></div> -->
+                                            </div>
+                                          </div>
+                                    </div>
+                                </div>
+                                <div class="desti-card">
+                                    <p class="destination-head">Leg 2<span> <b>Sat, 22 Oct 2022 - Sun, 23 Oct 2022</b></span></p>
+                                    <div class="cheapest-card">
+                                        <div class="cheapest-info">
+                                            <div class="cheap-from-to">
+                                              <div class="main-img"><img width="50" height="50" src="data:image/jpeg;base64,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"></div>
+                                            <div class="time text-end"><p>06:10</p><span>SIN</span></div>
+                                            <div class="connect text-center"><p>1 Day</p><span class="line"></span><span>Direct - 2Y</span></div>
+                                            <div><img src="../images/plan.png"></div>
+                                            <div class="time text-start"><p>06:10</p><span>BOM</span></div>
+                                            <div class="include"><p style="font-size: x-large;padding: 10px">31.29</p><span>CO2/m&#179; ton</span></div>
+                                            <div class="main-img"><img src="https://cdn4.iconfinder.com/data/icons/circular-economy-aesthetics-vol-1/256/Carbon_Emissions-512.png" width="50" height="50"></div>
+                                            <div class="cost"><p>$149.99</p><span>Inc GST</span></div>
+                                            </div>
+                                          </div>
+                                    </div>
+                                </div>
+                              
+                               
+                                <div class="desti-card mt-5 book-ticket">
+                                    <p class="destination-head">Book your freight</p>
+                                    <div class="cheapest-card">
+                                        <div class="cheapest-info">
+                                            <div class="cheap-from-to">
+                                                <div class="form-check mb-2">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                                                    <label class="form-check-label" for="flexCheckChecked">
+                                                      No dangerous goods
+                                                      <a href="#"><span>read more</span></a>
+                                                    </label>
+                                                </div>
+                                                <div class="form-check mb-2">
+                                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                                                  <label class="form-check-label" for="flexCheckChecked">
+                                                    Parcel declaration
+                                                    <a href="#"><span>read more</span></a>
+                                                  </label>
+                                                </div>
+                                                <div class="form-check mb-2">
+                                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                                                  <label class="form-check-label" for="flexCheckChecked">
+                                                    Service Agreement
+                                                    <a href="#"><span>read more</span></a>
+                                                  </label>
+                                                </div>
+                                                <div class="green-btn meduim-btn">
+                                                    <a href="#">Book Shipment</a>
+                                                </div>
+                                            </div>
+                                          </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-4">
+                        <div class="google-map"> 
+                            <p class="destination-head">Complete your shipment</p>
+                            <div class="google-frame">
+                                <iframe width="550" height="400" frameborder="0" src="https://widgets.scribblemaps.com/sm/?d&z&l&gc&af&mc&lat=17.361726194&lng=98.013614&vz=4&type=mbb_road&ti&s&width=550&height=400&id=NeFXkrT3fh" style="border:0; max-width: 100%;" allowfullscreen allow="geolocation" loading="lazy"></iframe>
+                                <div class="final-stack">
+                                    <div class="package-box blue-line">
+                                        <h6 class="blue-bg">Package</h6>
+                                        <p style="white-space: nowrap;">10 x Carton 55 x 40 x 35cm, 10 kg</p>
+                                        
+                                    </div>
+                                    <div class="package-box blue-gray-line">
+                                        <h6 class="sky-blue-txt blue-bg">Carriers</h6>
+                                        
+                                            <span>APL</span>
+                                            <span style="white-space: nowrap;">My Indo Airlines</span>
+                                        
+                                       
+                                        
+                                    </div>
+                                    <div class="package-box gray-line">
+                                        <h6 class="gray-bg" style="white-space: nowrap;">Total Duration</h6>
+                                        <p><span class="sky-blue-txt">10</span><br>days</span></p>
+                                        
+                                    </div>
+                                    <div class="package-box">
+                                        <h6 class="gray-bg">Total CO2</h6>
+                                        <p><span class="sky-blue-txt">31.56</span><br><span>CO2/m&#179; ton</span></p>
+                                        <div class="d-flex final-btn">
+                                            <div class="gray-btn">
+                                                <a href="#">BACK</a>
+                                            </div>
+                                            <div class="green-btn">
+                                                <a href="trip-details.html">NEXT</a>
+                                            </div>
+                                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    </div>
+
+    <!-- ................................Footer......................... -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-info d-flex px-0 px-md-5">
+                <div class="footer-logo">
+                    <img src="../images/footer-logo.png">
+                </div>
+                <div class="contact-info">
+                    <div class="mb-3"><img src="../images/location.png">ABC Company, 123 East, 17th Street, St. louis 10001</div>
+                    <div class="d-flex mb-4">
+                        <div class="w-50"><img src="../images/phone.png">(123) 456-7890</div>
+                        <div class="w-50"><img src="../images/fax.png">(123) 456-7890</div>
+                    </div>
+                    <div class="social-media d-flex">
+                        <p><span>Social Media</span><img src="../images/facebook.png"><img src="../images/twitter.png"><img src="../images/linkedin.png"><img src="../images/youtube.png"><img src="../images/instagram.png"><img src="../images/gplus.png"><img src="../images/pinterest.png"><img src="../images/rs-black.png"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright d-flex pt-3 justify-content-between align-items-center">
+                <div class="foot-menu">
+                    <ul class="list-unstyled">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                    </ul>
+                </div>
+                <div class="copyright-line">
+                    <p>Copyright © 2022 • ABC Company.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+  </body>
+</html>

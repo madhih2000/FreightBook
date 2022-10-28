@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Final destination</title>
+
+    <!-- ..............fonts........... -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <!-- .............Css................. -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    <!-- .............JS................. -->
+    <script src="script.js"></script>
+
+
+  </head>
+  <body>
+
+    <div class="bg-shape">
+
+    <!-- .................Menu................. -->
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid px-4">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../images/main-logo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="../track-your-order.html">Tracking</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign in</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- .............................Content........................... -->
+
+    <section class="final-destination">
+        <div class="container">
+            <h2>Route Information</h2>
+            <div class="destination-info"> 
+                <div class="row">
+                    <div class="col-lg-7 col-md-8">
+                        <div class="info-card">
+                            <div class="">
+                                <div class="desti-card">
+                                    <p class="destination-head">Leg 1<span> <b> Wed, 12 Oct 2022 - Thurs, 13 Oct 2022</b></span></p>
+                                    <div class="cheapest-card">
+                                        <div class="cheapest-info">
+                                            <div class="cheap-from-to">
+                                               <div class="main-img"><img width="50" height="50" src="https://cdn-icons-png.flaticon.com/512/5977/5977594.png"></div>
+                                                <div class="time text-end"><p>06:10</p><span>PVG</span></div>
+                                                <div class="connect text-center"><p>1 Day</p><span class="line"></span><span>Direct - 5X</span></div>
+                                                <div><img  src="../images/plan.png"></div>
+                                                <div class="time text-start"><p>06:10</p><span>SIN</span></div>
+                                                <div class="include"><p style="font-size: x-large;padding: 10px">31.28</p><span>CO2/m&#179; ton</span></div>
+                                                <div class="main-img"><img src="https://cdn4.iconfinder.com/data/icons/circular-economy-aesthetics-vol-1/256/Carbon_Emissions-512.png" width="50" height="50"></div>
+                                                <div class="cost"><p>$149.99</p><span>Inc GST</span></div>
+                                            </div>
+                                          </div>
+                                    </div>
+                                </div>
+                                <div class="desti-card">
+                                    <p class="destination-head">Stopover<span> <b> Thurs, 13 Oct 2022 - Fri, 14 Oct 2022 </b></span></p>
+                                    <div class="cheapest-card">
+                                        <div class="cheapest-info">
+                                            <div class="cheap-from-to">
+                                                <div class="main-img"><img width="50" height="50" src="data:image/png;base64,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"></div>
+                                                <div class="time text-end"><p>06:10</p><span>SIN</span></div>
+                                                <div class="connect text-center"><p>Shifting of goods (1 Day)</p><span class="line"></span><span>Truck</span></div>
+                                                
+                                                <div class="time text-start"><p>06:10</p><span>SGSIN</span></div>
+                                                <!-- <div class="include"><p>$100<span>CO2 emissions</span></p><span>included</span></div>
+                                                <div class="cost"><p>$149.99</p><span>Inc GST</span></div> -->
+                                            </div>
+                                          </div>
+                                    </div>
+                                </div>
+                                <div class="desti-card">
+                                    <p class="destination-head">Leg 2<span> <b> Fri, 14 Oct 2022 - Sat, 22 Oct 2022</b></span></p>
+                                    <div class="cheapest-card">
+                                        <div class="cheapest-info">
+                                            <div class="cheap-from-to">
+                                                 <div class="main-img"><img width="50" height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Evergreen_Roundel.svg/1024px-Evergreen_Roundel.svg.png"></div>
+                                                <div class="time text-end"><p>06:10</p><span>SGSIN</span></div>
+                                                <div class="connect text-center"><p>8 Days</p><span class="line"></span><span>Direct - CIX1</span></div>
+                                                <div><img width="15" height="15" src="https://www.iconpacks.net/icons/2/free-cargo-ship-icon-1771-thumb.png"></div>
+                                                <div class="time text-start"><p>06:10</p><span>INNSA</span></div>
+                                                <div class="include"><p style="font-size: x-large;padding: 10px">00.32</p><span>CO2/m&#179; ton</span></div>
+                                                <div class="main-img"><img src="https://cdn4.iconfinder.com/data/icons/circular-economy-aesthetics-vol-1/256/Carbon_Emissions-512.png" width="50" height="50"></div>
+                                                <div class="cost"><p>$149.99</p><span>Inc GST</span></div>
+                                            </div>
+                                          </div>
+                                    </div>
+                                </div>
+                               
+                                <div class="desti-card mt-5 book-ticket">
+                                    <p class="destination-head">Book your freight</p>
+                                    <div class="cheapest-card">
+                                        <div class="cheapest-info">
+                                            <div class="cheap-from-to">
+                                                <div class="form-check mb-2">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                                                    <label class="form-check-label" for="flexCheckChecked">
+                                                      No dangerous goods
+                                                      <a href="#"><span>read more</span></a>
+                                                    </label>
+                                                </div>
+                                                <div class="form-check mb-2">
+                                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                                                  <label class="form-check-label" for="flexCheckChecked">
+                                                    Parcel declaration
+                                                    <a href="#"><span>read more</span></a>
+                                                  </label>
+                                                </div>
+                                                <div class="form-check mb-2">
+                                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                                                  <label class="form-check-label" for="flexCheckChecked">
+                                                    Service Agreement
+                                                    <a href="#"><span>read more</span></a>
+                                                  </label>
+                                                </div>
+                                                <div class="green-btn meduim-btn">
+                                                    <a href="#">Book Shipment</a>
+                                                </div>
+                                            </div>
+                                          </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-4">
+                        <div class="google-map"> 
+                            <p class="destination-head">Complete your shipment</p>
+                            <div class="google-frame">
+                                <iframe width="550" height="400" frameborder="0" src="https://widgets.scribblemaps.com/sm/?d&z&l&gc&af&mc&lat=19.369847352&lng=88.197251438&vz=4&type=mbb_road&ti&s&width=550&height=400&id=igHeSxstX5" style="border:0; max-width: 100%;" allowfullscreen allow="geolocation" loading="lazy"></iframe> 
+                              
+                              <div class="col-lg-3 col-md-12 col-12">
+                                <div class="final-stack">
+                                    <div class="package-box blue-line">
+                                        <h6 class="blue-bg">Package</h6>
+                                        <p style="white-space: nowrap;">10 x Carton 55 x 40 x 35cm, 10 kg</p>
+                                        
+                                    </div>
+                                    <div class="package-box blue-gray-line">
+                                        <h6 class="sky-blue-txt blue-bg">Carriers</h6>
+                                        
+                                            <span>UPS Airlines</span>
+                                            <span style="white-space: nowrap;">Evergreen</span>
+                                        
+                                       
+                                        
+                                    </div>
+                                    <div class="package-box gray-line">
+                                        <h6 class="gray-bg" style="white-space: nowrap;">Total Duration</h6>
+                                        <p><span class="sky-blue-txt">10</span><br>days</span></p>
+                                        
+                                    </div>
+                                    <div class="package-box">
+                                        <h6 class="gray-bg">Total CO2</h6>
+                                        <p><span class="sky-blue-txt">31.60</span><br><span>CO2/m&#179; ton</span></p>
+                                        <div class="d-flex final-btn">
+                                            <div class="gray-btn">
+                                                <a href="#">BACK</a>
+                                            </div>
+                                            <div class="green-btn">
+                                                <a href="trip-details.html">NEXT</a>
+                                            </div>
+                                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    </div>
+
+    <!-- ................................Footer......................... -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-info d-flex px-0 px-md-5">
+                <div class="footer-logo">
+                    <img src="../images/footer-logo.png">
+                </div>
+                <div class="contact-info">
+                    <div class="mb-3"><img src="../images/location.png">ABC Company, 123 East, 17th Street, St. louis 10001</div>
+                    <div class="d-flex mb-4">
+                        <div class="w-50"><img src="../images/phone.png">(123) 456-7890</div>
+                        <div class="w-50"><img src="../images/fax.png">(123) 456-7890</div>
+                    </div>
+                    <div class="social-media d-flex">
+                        <p><span>Social Media</span><img src="../images/facebook.png"><img src="../images/twitter.png"><img src="../images/linkedin.png"><img src="../images/youtube.png"><img src="../images/instagram.png"><img src="../images/gplus.png"><img src="../images/pinterest.png"><img src="../images/rs-black.png"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright d-flex pt-3 justify-content-between align-items-center">
+                <div class="foot-menu">
+                    <ul class="list-unstyled">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                    </ul>
+                </div>
+                <div class="copyright-line">
+                    <p>Copyright © 2022 • ABC Company.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+  </body>
+</html>

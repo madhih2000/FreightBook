@@ -162,7 +162,17 @@ textarea:focus {
 	position: absolute;
 	width: 19px;
 	height: 14px;
-	background-image: url(../images/us-flag.png);
+	background-image: url(../images/China.png);
+	top: 50%;
+	left: 9px;
+	transform: translateY(-50%);
+}
+.residensial-part .form-group .input-group-two::after {
+	content: '';
+	position: absolute;
+	width: 19px;
+	height: 14px;
+	background-image: url(../images/India.png);
 	top: 50%;
 	left: 9px;
 	transform: translateY(-50%);
@@ -239,6 +249,18 @@ select {
 	appearance: none;
 	background: url(../images/select-arrow.png)white no-repeat calc(100% - 10px);
 }
+
+input[type=button] {
+	padding: 8px 5px;
+	border: 2px solid #3E54FF;
+	display: inline-block;
+	background-color: #3E54FF;
+	color: #ffffff;
+	border-radius: 25px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15px;
+  }
 
 .blue-btn a {
 	padding: 8px 40px;
